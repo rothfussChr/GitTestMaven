@@ -24,7 +24,7 @@ public class Queue {
 
    public int dequeue(){
 	   if(tail < head){
-		    throw new IllegalStateException("dequeue on empty queue");
+		    throw new IllegalStateException("dequeuet on empty queue");
 		  }
 		  return queue[(head++) % maxqueuelength];
    }
